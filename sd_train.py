@@ -21,6 +21,7 @@ First, I'll import the pandas library to enable data manipulation. Then, I'll co
 import pandas as pd
 import os
 
+path = "."
 file_path = os.path.join(path, "Sleep_health_and_lifestyle_dataset.csv")
 df = pd.read_csv(file_path)
 df.head()
